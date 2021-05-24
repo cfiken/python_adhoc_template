@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "mykaggle"
+version = "0.1.0"
+description = ""
+authors = ["cfiken <cfiken@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8.6, <4.0.0"
+jupyter = "*"
+jupyterlab = "*"
+numpy = "*"
+matplotlib = "*"
+pillow = "*"
+pandas = "*"
+seaborn = "*"
+lightgbm = "*"
+xgboost = "*"
+catboost = "*"
+tensorflow = "*"
+tensorflow-addons = "*"
+tensorflow-datasets = "*"
+transformers = "*"
+torch = "*"
+fastprogress = "*"
+kaggle = "*"
+pyyaml = "*"
+mlflow = "*"
+python-dotenv = "*"
+boto3 = "*"
+pyarrow = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+flake8 = "*"
+mypy = "*"
+autopep8 = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
